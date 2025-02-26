@@ -1,0 +1,32 @@
+@media screen and (max-width : 1200px) {
+    #home p{
+        font-size: .9rem !important;
+    }
+    #home h1{
+        font-size: 2.3rem !important;
+    }
+}
+@media screen and (max-width : 768px) {
+    #home img{
+        width: 60%;
+    }
+    .social-icon{
+        left: 50%;
+        transform: translate(-50%) ;
+    }
+    #home .row{
+        padding-bottom: 75px;
+    }
+    .btn-cv{
+        width: 80%;
+    }
+    #about{
+        text-align: justify !important;
+    }
+}
+@media screen and (max-width : 576px) {
+    
+}
+@media screen and (max-width : 350px) {
+    
+}

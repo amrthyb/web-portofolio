@@ -1,0 +1,170 @@
+:root{
+    --mainColor : #252734;
+    --secondaryColor : #333646;
+    --acsentColor : #FF9100;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+/* navbar */
+.nav-link.active{
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+.navbar-nav .nav-link.hover {
+    color: var(--acsentColor);
+    transition: color 0.3s;
+}
+.nav-dark{
+    z-index: 10;
+    width: 100%;
+}
+
+
+/* home */
+#home{
+    color: #ffffff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+#home h1{
+    font-size: 3rem;
+}
+#home h2{
+    font-size: 300;
+}
+#hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* button */
+.btn-cv {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: var(--acsentColor);
+    border: 3px solid transparent;
+    border-radius: 8px;
+}
+
+.btn-cv:hover {
+    background-color: transparent;
+    border-color: var(--acsentColor);
+    color: var(--acsentColor);
+    box-shadow: 0 0 5px var(--acsentColor);
+}
+
+.btn-cv:hover svg {
+    fill: var(--acsentColor);
+}
+/* Style untuk link menu yang aktif */
+
+
+#home img{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+}
+/* social icon */
+.social-icon{
+    margin-right: 70px;
+    padding-top: 15px;
+}
+.social-icon a {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* animasi untuk efek hover */
+}
+.social-icon a:hover {
+    transform: scale(1.1); /* memperbesar ikon saat hover */
+    opacity: 0.8; /* mengubah opasitas saat hover */
+}
+/* about */
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+.color-acsent{
+    color: var(--acsentColor);
+}
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+
+/* skill */
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+#skill img{
+    width: 12%;
+    margin: 10px;
+    border-radius: 20%;
+}
+
+/* Projects */
+#project {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    padding: 80px 0px;
+}
+
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#project img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 2%;
+}
+
+.exp-project {
+    margin-top: 40px;
+}
+
+/* kontak */
+#kontak {
+    min-height: 100px;
+    width: 100%;
+    background-color: var(--maincolor);
+    padding: 30px;
+}
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+    padding-bottom: 30px;
+}
+
+.contact-text{
+    color: #ffffff;
+    text-decoration: none;
+}

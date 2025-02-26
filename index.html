@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/custom/style.css">
+    <script src="assets/custom/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+ 
+    <title>
+      Portofolio M. Amrubni Thoyyib</title>
+</head>
+<body>
+ 
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg position-fixed navbar-dark nav-dark bg-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active me-3" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link me-3" href="#skill">Skill</a>
+                        <a class="nav-link me-3" href="#project">Project</a>
+                        <a class="nav-link me-3" href="#kontak">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- home -->
+<section id="home">
+    <div class="container">
+        <div class="row position-relative">
+            <div class="col-lg-6 col-md-6 offset-lg-1 my-auto order-1 text-center text-lg-start">
+                <h2>Halo</h2>
+                <h1 class="fw-bold ">Saya <br> M. Amrubni Thoyyib</h1>
+                <p>Mahasiswa semester 6 Jurusan Sistem Informasi <br>
+                    Di Universitas Nahdlatul Ulama Surabaya</p>
+
+                <button class="btn btn-cv " id="download-cv">Download CV
+                    <svg class="ms-1 mb-1" width="20" viewBox="0 0 25 25" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.5 18.3333L5.20834 11.0416L7.25001 8.92706L11.0417 12.7187V0.833313H13.9583V12.7187L17.75 8.92706L19.7917 11.0416L12.5 18.3333ZM3.75001 24.1666C2.94793 24.1666 2.26154 23.8813 1.69084 23.3106C1.12015 22.7399 0.834316 22.053 0.833344 21.25V16.875H3.75001V21.25H21.25V16.875H24.1667V21.25C24.1667 22.0521 23.8813 22.7389 23.3106 23.3106C22.7399 23.8823 22.0531 24.1676 21.25 24.1666H3.75001Z" />
+                    </svg>
+                </button>
+
+                <div class="social-icon d-flex gap-3 justify-content-center justify-content-lg-start" style="width:100%;">
+                    <!-- linkedin -->
+                    <a href="https://www.linkedin.com/in/amrubni-toyib-149292352/" target="_blank">
+                        <svg width="35" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_37)">
+                                <path
+                                    d="M35.3438 0.914081H3.65625C2.93728 0.906764 2.24478 1.18496 1.73068 1.68763C1.21659 2.1903 0.922902 2.87638 0.914062 3.59533V35.4108C0.9245 36.1287 1.21889 36.8132 1.73281 37.3146C2.24673 37.8159 2.93832 38.0933 3.65625 38.086H35.3438C36.0628 38.0917 36.7548 37.8125 37.2686 37.3095C37.7825 36.8066 38.0763 36.1206 38.0859 35.4017V3.58619C38.0731 2.86935 37.7779 2.18654 37.2644 1.68618C36.7509 1.18582 36.0607 0.908346 35.3438 0.914081Z"
+                                    fill="#0076B2" />
+                                <path
+                                    d="M6.41672 14.8474H11.9346V32.6016H6.41672V14.8474ZM9.17719 6.01147C9.81006 6.01147 10.4287 6.19918 10.9549 6.55085C11.4811 6.90252 11.8911 7.40235 12.1332 7.98711C12.3752 8.57187 12.4384 9.21528 12.3147 9.83595C12.191 10.4566 11.886 11.0267 11.4383 11.474C10.9906 11.9213 10.4202 12.2257 9.79945 12.3488C9.17866 12.4719 8.53531 12.4081 7.95079 12.1655C7.36626 11.9229 6.86682 11.5124 6.51565 10.9859C6.16448 10.4594 5.97737 9.84052 5.97797 9.20765C5.97878 8.35969 6.31619 7.54674 6.91607 6.94743C7.51596 6.34812 8.32923 6.01147 9.17719 6.01147ZM15.3959 14.8474H20.6852V17.2849H20.7584C21.4957 15.8894 23.2934 14.4178 25.9777 14.4178C31.5656 14.4056 32.6016 18.0832 32.6016 22.8516V32.6016H27.0837V23.9637C27.0837 21.907 27.0471 19.2593 24.2166 19.2593C21.386 19.2593 20.9046 21.5018 20.9046 23.8296V32.6016H15.3959V14.8474Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_37">
+                                    <rect width="39" height="39" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>
+
+                    <!--email-->
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsWDMPQjMPrGZMkhddgKbQWnGvplPCNFxfwcWSjsPbhHlDsZPnFRsJBrfkWnsfWTfRJLl"
+                        target="_blank">
+                        <svg width="40" viewBox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_46)">
+                                <path
+                                    d="M10.8526 35.8228V17.3732L5.13084 12.1387L0 9.23389V32.5669C0 34.3684 1.45959 35.8228 3.25585 35.8228H10.8526Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M36.8987 35.8228H44.4954C46.2971 35.8228 47.7513 34.363 47.7513 32.5669V9.23407L41.9398 12.5612L36.8987 17.3732V35.8228Z"
+                                    fill="#34A853" />
+                                <path
+                                    d="M10.8526 17.3733L10.074 10.1645L10.8526 3.26501L23.8757 13.0324L36.8987 3.26501L37.7696 9.79202L36.8987 17.3733L23.8757 27.1407L10.8526 17.3733Z"
+                                    fill="#EA4335" />
+                                <path
+                                    d="M36.8987 3.265V17.3733L47.7513 9.23391V4.89283C47.7513 0.866615 43.1552 -1.42862 39.9376 0.985993L36.8987 3.265Z"
+                                    fill="#FBBC04" />
+                                <path
+                                    d="M0 9.23394L4.99132 12.9776L10.8526 17.3733V3.26502L7.81368 0.986018C4.59047 -1.42878 0 0.866639 0 4.89267V9.23394Z"
+                                    fill="#C5221F" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_46">
+                                    <rect width="47.7513" height="36" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>
+
+                    <!--github-->
+                    <a href="https://github.com/amrthyb?tab=repositories" target="_blank"> <svg width="35"
+                            viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_40)">
+                                <path
+                                    d="M29.8594 0H9.14062C4.0924 0 0 4.0924 0 9.14062V29.8594C0 34.9076 4.0924 39 9.14062 39H29.8594C34.9076 39 39 34.9076 39 29.8594V9.14062C39 4.0924 34.9076 0 29.8594 0Z"
+                                    fill="#242938" />
+                                <path
+                                    d="M19.5002 4.57031C11.0874 4.57031 4.26562 11.3907 4.26562 19.8048C4.26562 26.5358 8.63073 32.2463 14.684 34.2607C15.4452 34.4018 15.7248 33.9303 15.7248 33.528C15.7248 33.1646 15.7106 31.9646 15.7041 30.6916C11.4658 31.6132 10.5716 28.8941 10.5716 28.8941C9.87843 27.1332 8.87996 26.665 8.87996 26.665C7.49775 25.7194 8.98417 25.7389 8.98417 25.7389C10.514 25.8463 11.3196 27.3088 11.3196 27.3088C12.6784 29.6379 14.8835 28.9645 15.7528 28.5753C15.8896 27.5905 16.2843 26.9185 16.72 26.5381C13.3363 26.1529 9.77925 24.8465 9.77925 19.0091C9.77925 17.3459 10.3743 15.9868 11.3488 14.9199C11.1906 14.5362 10.6691 12.9867 11.4963 10.8883C11.4963 10.8883 12.7757 10.479 15.687 12.4498C16.9022 12.1124 18.2054 11.9431 19.5002 11.9374C20.7948 11.9431 22.0991 12.1124 23.3165 12.45C26.2243 10.4788 27.5019 10.8885 27.5019 10.8885C28.3311 12.9867 27.8094 14.5363 27.6512 14.9199C28.628 15.9868 29.2191 17.3459 29.2191 19.0091C29.2191 24.8605 25.6551 26.1489 22.2628 26.5259C22.8092 26.9988 23.2961 27.9258 23.2961 29.3472C23.2961 31.3856 23.2784 33.0261 23.2784 33.528C23.2784 33.9333 23.5526 34.4084 24.3249 34.2588C30.3748 32.242 34.7344 26.5336 34.7344 19.8048C34.7344 11.3909 27.9135 4.57031 19.5002 4.57031ZM9.97151 26.2721C9.93799 26.3479 9.81886 26.3705 9.71039 26.3186C9.59979 26.2689 9.53779 26.1656 9.57359 26.0898C9.60634 26.0118 9.72578 25.9901 9.83592 26.0424C9.94668 26.0921 10.0097 26.1963 9.97151 26.2721ZM10.7209 26.9408C10.6482 27.0083 10.5061 26.9769 10.4098 26.8704C10.3102 26.7642 10.2914 26.6222 10.3652 26.5538C10.44 26.4865 10.5778 26.518 10.6776 26.6242C10.7773 26.7318 10.7968 26.8727 10.7209 26.9408ZM11.2349 27.7963C11.1415 27.8612 10.9889 27.8004 10.8946 27.6649C10.8012 27.5294 10.8012 27.367 10.8965 27.3018C10.9911 27.2368 11.1415 27.2953 11.2372 27.4298C11.3303 27.5675 11.3303 27.7301 11.2349 27.7963ZM12.1043 28.7872C12.0208 28.8792 11.8431 28.8545 11.7128 28.7288C11.5796 28.606 11.5425 28.4318 11.6263 28.3396C11.7108 28.2473 11.8897 28.2733 12.0208 28.3979C12.1531 28.5204 12.1934 28.6961 12.1043 28.7872ZM13.228 29.1216C13.1911 29.241 13.0199 29.2952 12.8473 29.2445C12.6752 29.1923 12.5623 29.0526 12.5972 28.9319C12.633 28.8119 12.8049 28.7553 12.9788 28.8096C13.1509 28.8615 13.2638 29.0003 13.228 29.1216ZM14.5068 29.2636C14.511 29.3891 14.3648 29.4933 14.1837 29.4956C14.0015 29.4997 13.8541 29.3979 13.8522 29.2744C13.8522 29.1475 13.9952 29.0443 14.1773 29.0413C14.3586 29.0378 14.5068 29.1386 14.5068 29.2636ZM15.763 29.2154C15.7848 29.3379 15.659 29.4639 15.479 29.4974C15.3022 29.5297 15.1384 29.454 15.116 29.3324C15.0941 29.2067 15.2222 29.0809 15.3988 29.0483C15.579 29.0171 15.7402 29.0908 15.763 29.2154Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_40">
+                                    <rect width="39" height="39" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 order-md-2 mb-5 mb-lg-0">
+                <img src="assets/foto/fthoy.png" width="80%" class="float-lg-end mx-auto d-block">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about -->
+<section id="about">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h1 class="text-center fw-bold">About</h1>
+                    <hr>
+                </div>
+                <div class="col-lg-10 col-md-12 mt-3">
+                    <p class="text-lg-center color-acsent" style="text-align: justify;">
+                        Keberhasilan bukanlah milik orang yang pintar.
+                        Keberhasilan adalah kepunyaan mereka yang senantiasa berusaha.
+                    </p>
+                    <p class="text-lg-center" style="text-align: justify;">
+                        Saya adalah mahasiswa semester 6 di bidang Sistem
+                        Informasi dengan minat dalam pengembangan
+                        perangkat lunak, analisis data, dan desain UI/UX.
+                        Berpengalaman dalam organisasi dan kepanitiaan,
+                        saya memiliki keterampilan problem-solving,
+                        manajemen proyek, serta komunikasi dan kerja tim
+                        yang baik. saya selalu antusias mempelajari
+                        teknologi baru untuk mengembangkan
+                        keterampilan dan wawasan di dunia industri.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skill -->
+<section id="skill">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h1 class="fw-bold text-center">Skill</h1>
+                    <hr>
+                </div>
+                <div class="col-lg-10 col-md-12 text-center mt-3">
+                    <img src="assets/img/html.jpg" alt="">
+                    <img src="assets/img/css.jpg" alt="">
+                    <img src="assets/img/js.jpg" alt="">
+                    <img src="assets/img/laravel.jpg" alt="">
+                    <img src="assets/img/php.jpg" alt="">
+                    <img src="assets/img/mysql.jpg" alt="">
+                    <img src="assets/img/drawio.jpg" alt="">
+                    <img src="assets/img/frammer.jpg" alt="">
+                    <img src="assets/img/figma.jpg" alt="">
+                    <img src="assets/img/canva.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- project -->
+<section id="project">
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h1 class="text-center fw-bold">Experience Projects</h1>
+                <hr>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <img src="assets/img/website ppdb.png" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <p class="text-white"><span class="color-acsent">Website PPDB Pondok Pesantren Nurul Huda</span> <br>
+                    (Sep 2024 - Jan 2025)</p>
+                <ul>
+                    <li class="text-white">Membangun dan mendesain fitur utama bersama tim dengan fokus fitur berkas
+                        dan pengaturan
+                        website (PHP, Tailwind, dan Laravel).</li>
+                    <li class="text-white">Menangani route dan database (MySql) sesuai fokus fitur, berdasarkan
+                        referensi kode tim.</li>
+                    <li class="text-white">Berkolaborasi dengan tim melalui GitHub untuk efisiensi kode.</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <img src="assets/img/cargo.png" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <p class="text-white"><span class="color-acsent">Website Cargo Connect</span> <br>
+                    (2024)</p>
+                <ul>
+                    <li class="text-white">Mengembangkan website sederhana dengan fitur CRUD</li>
+                    <li class="text-white">bertugas sebagai front
+                        end dan backend menggunakan native php</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <img src="assets/img/duiux.png" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <p class="text-white"><span class="color-acsent">Website Personal Profile</span> <br>
+                    (2024)</p>
+                <ul>
+                    <li class="text-white">Berperan sebagai project manager yang bertanggung
+                        jawab Bertanggung jawab dalam penyusunan jadwal,
+                        pembagian tugas setiap sprint,
+                        serta memastikan kelancaran proyek dengan
+                        menerapkan metode Agile.</li>
+                    <li class="text-white">Membuat serta mendesain website portofolio dari klien menggunakan software
+                        Frammer</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <img src="assets/img/ormawa.png" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 exp-project">
+                <p class="text-white"><span class="color-acsent">Sistem Informasi Management Ormawa</span> <br>
+                    (2024)</p>
+                <ul>
+                    <li class="text-white">bertugas merancang UI/UX dan Membuat
+                        wireframe, prototipe, dan desain visual
+                        menggunakan tools Figma</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- kontak -->
+<section>
+    <section id="kontak">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-center gap-3">
+                    <div class="col-12">
+                        <h1 class="text-center fw-bold">Contact</h1>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 offset-lg-2 col-sm-12 mt-2 kontak-gmail">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsWDMPQjMPrGZMkhddgKbQWnGvplPCNFxfwcWSjsPbhHlDsZPnFRsJBrfkWnsfWTfRJLl"
+                            target="_blank" class="contact-text">
+                            <svg width="45" viewBox="0 0 48 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_46)">
+                                    <path
+                                        d="M10.8526 35.8228V17.3732L5.13084 12.1387L0 9.23389V32.5669C0 34.3684 1.45959 35.8228 3.25585 35.8228H10.8526Z"
+                                        fill="#4285F4" />
+                                    <path
+                                        d="M36.8987 35.8228H44.4954C46.2971 35.8228 47.7513 34.363 47.7513 32.5669V9.23407L41.9398 12.5612L36.8987 17.3732V35.8228Z"
+                                        fill="#34A853" />
+                                    <path
+                                        d="M10.8526 17.3733L10.074 10.1645L10.8526 3.26501L23.8757 13.0324L36.8987 3.26501L37.7696 9.79202L36.8987 17.3733L23.8757 27.1407L10.8526 17.3733Z"
+                                        fill="#EA4335" />
+                                    <path
+                                        d="M36.8987 3.265V17.3733L47.7513 9.23391V4.89283C47.7513 0.866615 43.1552 -1.42862 39.9376 0.985993L36.8987 3.265Z"
+                                        fill="#FBBC04" />
+                                    <path
+                                        d="M0 9.23394L4.99132 12.9776L10.8526 17.3733V3.26502L7.81368 0.986018C4.59047 -1.42878 0 0.866639 0 4.89267V9.23394Z"
+                                        fill="#C5221F" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_46">
+                                        <rect width="47.7513" height="36" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="ms-2">3130022011@student.unusa.ac.id</span></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 kontak-wa">
+                        <a href="https://wa.me/6289678872188" target="_blank" class="contact-text">
+                            <svg width="50" viewBox="0 0 76 77" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_8_77)">
+                                    <path
+                                        d="M1.62182 38.0391C1.62004 44.5086 3.30154 50.8256 6.49888 56.3935L1.31604 75.4172L20.6818 70.3126C26.0381 73.2439 32.0395 74.7799 38.138 74.7803H38.1541C58.2866 74.7803 74.675 58.311 74.6836 38.0681C74.6875 28.2589 70.8911 19.035 63.9935 12.0955C57.0971 5.15653 47.9251 1.33309 38.1526 1.32861C18.0176 1.32861 1.63043 17.7971 1.62212 38.0391"
+                                        fill="url(#paint0_linear_8_77)" />
+                                    <path
+                                        d="M0.317656 38.0273C0.315578 44.7295 2.05734 51.2724 5.36869 57.0397L0 76.7454L20.0601 71.4578C25.5874 74.4873 31.8105 76.0847 38.1428 76.087H38.1591C59.014 76.087 75.9911 59.0253 76 38.0577C76.0036 27.8961 72.0706 18.3406 64.9266 11.1525C57.7817 3.9652 48.2817 0.00417829 38.1591 0C17.3007 0 0.325969 17.0594 0.317656 38.0273ZM12.2642 56.0465L11.5152 54.8512C8.36653 49.8181 6.70462 44.0019 6.707 38.0296C6.71353 20.6017 20.8222 6.42264 38.171 6.42264C46.5726 6.42622 54.4682 9.71871 60.4069 15.6925C66.3453 21.6668 69.613 29.6086 69.611 38.0553C69.6032 55.4833 55.4942 69.6641 38.1591 69.6641H38.1467C32.5022 69.6611 26.9663 68.1372 22.1386 65.2575L20.9897 64.5726L9.08556 67.7102L12.2642 56.0465Z"
+                                        fill="url(#paint1_linear_8_77)" />
+                                    <path
+                                        d="M28.7013 22.1293C27.993 20.5467 27.2475 20.5147 26.5739 20.487C26.0223 20.4631 25.3917 20.4649 24.7618 20.4649C24.1312 20.4649 23.1067 20.7033 22.2407 21.6539C21.3738 22.6054 18.9312 24.9046 18.9312 29.581C18.9312 34.2574 22.3194 38.7771 22.7917 39.4119C23.2646 40.0456 29.3328 49.9493 38.9432 53.7593C46.9303 56.9256 48.5557 56.2958 50.2892 56.1371C52.0229 55.9789 55.8835 53.8384 56.6711 51.6188C57.4593 49.3996 57.4593 47.4972 57.223 47.0997C56.9867 46.7037 56.3561 46.4658 55.4106 45.9907C54.465 45.5155 49.8162 43.2157 48.9497 42.8984C48.0828 42.5815 47.4525 42.4233 46.822 43.3751C46.1914 44.3253 44.3808 46.4658 43.8289 47.0997C43.2776 47.7351 42.7257 47.8142 41.7804 47.3388C40.8343 46.8618 37.7892 45.8594 34.1766 42.6215C31.3658 40.102 29.4681 36.9906 28.9165 36.0389C28.3649 35.0886 28.8575 34.5735 29.3316 34.0998C29.7564 33.674 30.2774 32.9899 30.7506 32.4351C31.2221 31.88 31.3794 31.4839 31.6947 30.85C32.0103 30.2155 31.8523 29.6604 31.6163 29.185C31.3794 28.7095 29.5421 24.0087 28.7013 22.1293Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_8_77" x1="3669.7" y1="7410.19"
+                                        x2="3669.7" y2="1.32861" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#1FAF38" />
+                                        <stop offset="1" stop-color="#60D669" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_8_77" x1="3800" y1="7674.54"
+                                        x2="3800" y2="0" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F9F9F9" />
+                                        <stop offset="1" stop-color="white" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_8_77">
+                                        <rect width="76" height="77" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="ms-2">+62 896-7887-2188</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/assets/bootstrap/js/bootstrap.js"></script>
+    </body>
+
+</html>
